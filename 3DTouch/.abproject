@@ -1,0 +1,45 @@
+{
+  "ProjectName": "3DTouch",
+  "ProjectGuid": "66375f13-37b2-4aae-87f9-5f07ec8aafc3",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.the3DTouch",
+  "DisplayName": "3DTouch",
+  "Author": "",
+  "Description": "3DTouch",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.7.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "false",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{37b1eac8-fbfe-4de1-a8c5-ff477170e334}",
+  "WP8ProductID": "{4f13c662-59c8-44fb-886f-bfce84aebe3d}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.the3DTouch",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}
