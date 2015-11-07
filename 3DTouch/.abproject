@@ -2,10 +2,10 @@
   "ProjectName": "3DTouch",
   "ProjectGuid": "66375f13-37b2-4aae-87f9-5f07ec8aafc3",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.the3DTouch",
+  "AppIdentifier": "com.telerik.plugindemo.the3DTouch",
   "DisplayName": "3DTouch",
-  "Author": "",
-  "Description": "3DTouch",
+  "Author": "Telerik",
+  "Description": "3DTouch plugin demo",
   "BundleVersion": "1.0",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
@@ -14,7 +14,7 @@
   ],
   "iOSBackgroundMode": [],
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
-  "FrameworkVersion": "3.7.0",
+  "FrameworkVersion": "4.0.0",
   "AndroidPermissions": [
     "android.permission.INTERNET"
   ],
@@ -22,7 +22,7 @@
     "Portrait",
     "Landscape"
   ],
-  "AndroidHardwareAcceleration": "false",
+  "AndroidHardwareAcceleration": "True",
   "iOSStatusBarStyle": "Default",
   "Framework": "Cordova",
   "WP8TileTitle": "",
@@ -41,5 +41,11 @@
     "ID_RESOLUTION_WVGA",
     "ID_RESOLUTION_WXGA",
     "ID_RESOLUTION_HD720P"
+  ],
+  "CorePlugins": [
+    "cordova-plugin-console",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar",
+    "cordova-plugin-whitelist"
   ]
 }
