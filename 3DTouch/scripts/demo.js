@@ -22,9 +22,9 @@ document.addEventListener('deviceready', function () {
     }, 500);
     // now do something based on the payload.type, f.i. navigate to a specific page
     if (payload.type == 'infopage') {
-      document.location = '#info';
+      document.location.href = "#tabstrip-home";
     } else if (payload.type == 'demopage') {
-      document.location = '#demo';
+      document.location.href = "#tabstrip-demo";
     } else {
       // hook up any other icons you may have and do something awesome
       // (e.g. launch the Camera UI, then share the image to Twitter)
@@ -40,7 +40,7 @@ document.addEventListener('deviceready', function () {
   DemoViewModel = kendo.data.ObservableObject.extend({
 
     isAvailable: function () {
-      if (!this.checkSimulator()) {
+      if (!checkSimulator()) {
 	      ThreeDeeTouch.isAvailable(function (avail) {
   	      alert(avail ? "YES" : "NO");
   			});
@@ -59,7 +59,7 @@ document.addEventListener('deviceready', function () {
           {
             type: 'demopage',
             title: 'Demo',
-			      subtitle: 'Deeplink to the demo page',
+			      subtitle: 'Deeplink to the demo',
       			iconType: 'Share'
 			    },
 			    {
