@@ -43,7 +43,7 @@
     <key>CFBundleName</key>
     <string>$ProjectName$</string>
     <key>CFBundleDisplayName</key>
-    <string>BASE</string>
+    <string>DEBUG</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundlePackageType</key>
@@ -174,7 +174,7 @@
             <key>UIApplicationShortcutItemIconFile</key>
             <string>Eye</string>
             <key>UIApplicationShortcutItemTitle</key>
-            <string>Eye from plist</string>
+            <string>DEBUG from plist</string>
             <key>UIApplicationShortcutItemSubtitle</key>
             <string>I'm a static action</string>
             <key>UIApplicationShortcutItemType</key>

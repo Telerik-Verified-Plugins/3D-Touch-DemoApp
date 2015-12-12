@@ -71,7 +71,6 @@ document.addEventListener('deviceready', function () {
       }
     },
 
-
     configureQuickActionsAlt: function () {
       if (!checkSimulator()) {
         ThreeDeeTouch.configureQuickActions([
@@ -91,7 +90,16 @@ document.addEventListener('deviceready', function () {
       }
     },
 
-    enableLinkPreview: function () {
+    
+    watchForceTouches: function () {
+      if (!checkSimulator()) {
+	      ThreeDeeTouch.watchForceTouches(function (result) {
+  	      alert("Force Touch registered: " + JSON.stringify(result));
+  			});
+      }
+    },
+
+ 		enableLinkPreview: function () {
       if (!checkSimulator()) {
 	      ThreeDeeTouch.enableLinkPreview(function () {
   	      alert("Link preview is now enabled. Apply a bit of pressure when pressing that link!");
